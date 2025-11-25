@@ -1,0 +1,11 @@
+# Ignore most markdown documentation files that are not needed by end users
+docs/**/*.md
+*.md
+
+# Keep main README files
+!README.md
+!docs/fr/README.md
+!docs/en/README.md
+
+# Keep other important files
+!jsass.config.js

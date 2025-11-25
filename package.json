@@ -1,0 +1,31 @@
+
+{
+  "name": "jsass",
+  "author": "Orssi Mp",
+  "version": "1.0.0",
+  "description": "Prototype de Jsass inspiré de Sass pour JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrssiMp/jsass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OrssiMp/jsass/issues"
+  },
+  "homepage": "https://github.com/OrssiMp/jsass#readme",
+  "main": "src/jsass.js",
+  "scripts": {
+    "start": "node src/jsass.js examples/example1.jsass examples/output.js",
+    "build": "node ./bin/build-all.js",
+    "dev": "node ./bin/watch-build.js",
+    "test-generate": "node test/test-generate.js",
+    "prepare": "npm run build"
+  },
+  "files": ["src/","bin/","examples/","docs/","jsass.config.js"],
+  "keywords": ["jsass","sass","css","generator"],
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^3.5.3"
+  },
+  "dependencies": {}
+}
+

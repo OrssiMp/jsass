@@ -1,0 +1,8 @@
+
+$colors: red, blue, green;
+
+@each $color in $colors {
+  .text-$color {
+    color: $color;
+  }
+}
